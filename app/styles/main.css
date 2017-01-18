@@ -1,0 +1,1157 @@
+/*
+* ADLER - Signature Edition | Premium Web Template from Designova
+* Build: Sep 2015;
+* Author: Designova, http://www.designova.net
+* Copyright (C) 2015 Designova
+* This is a premium product. For licensing queries please contact info@designova.net
+*/
+
+
+/* Table of contents
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+- 1. Common
+- 2. Header
+- 3. Footer
+- 4. Navigation
+- 5. Pages
+- 6. Utilities
+*/
+
+
+/* 1. Common
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: none;
+}
+
+/*Typography*/
+
+.main-heading h1{
+    font-size: 32px;
+    line-height: 32px;
+}
+.main-heading h6{
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.liner{
+  width: 200px;
+  height: 5px;
+  display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.liner-small{
+  width: 100px;
+  height: 2px;
+  display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-text.signature-adler h3{
+    font-size: 48px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+.hero-text.signature-adler h6{
+    font-size: 14px;
+    line-height: 21px;
+}
+.page-top-spacing{
+    margin-top: 400px;
+}
+.first-fold.signature-adler .main-heading{
+  margin-left: 100px;
+}
+.first-fold.signature-adler .main-heading.fixed-bottom{
+  position: absolute;
+  bottom: 60px;
+}
+
+/*Preloader*/
+html.preloader-running, body.preloader-running {
+    overflow: hidden;
+}
+
+html.preloader-running .sticky-sidebar {
+    display: block;
+}
+
+div#preloader.signature-adler {
+    background: none repeat scroll 0 0 white;
+    height: 100%;
+    left: 300px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+
+div#preloader.signature-adler.fluidview {
+    left: 0px;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px 80px;
+    margin: -100px 0 0 -100px;
+}
+
+/* 2. Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.masthead.signature-adler {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    padding: 80px;
+}
+
+/* 3. Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+footer.mastfoot.signature-adler{
+  padding: 60px 40px;
+}
+.credits{
+}
+.social-wrap{
+  padding: 0;
+}
+.foot-social {
+    list-style: none outside none;
+    padding: 0;
+}
+.foot-social li {
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 0;
+}
+.foot-social li a > img {
+  width: 32px;
+    opacity: 1;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+.foot-social li a > img:hover {
+    opacity: 0.5;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+.credits p{
+  font-size: 12px;
+  line-height: 19px;
+}
+
+
+/* 4. Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav.mastnav.signature-adler {
+    position: absolute;
+    bottom: 80px;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+nav.mastnav.signature-adler ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: solid 5px;
+    margin-right: 80px;
+}
+nav.mastnav.signature-adler ul li{
+    margin-top: 10px;
+}
+.sub-menu{
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-top: solid 1px;
+}
+.sub-menu a{
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+/* 5. Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+section.mastwrap.signature-adler {
+    margin-left: 300px;
+}
+.inner-wrap{
+    padding: 100px;
+}
+
+/*INTRO 01*/
+
+
+/*ABOUT*/
+.team-info{
+  padding: 20px;
+}
+.team-info h4{
+  text-transform: uppercase;
+}
+.team-overlay{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  border-left:solid 15px;
+  border-right:solid 15px;
+  background-color: rgba(255,255,255,0.9);
+}
+.team-overlay p{
+  font-size: 11px;
+}
+.team-social {
+    list-style: none outside none;
+    padding: 0;
+    display: block;
+}
+.team-social li {
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 0;
+}
+.team-social li a > img {
+  width: 32px;
+    opacity: 1;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+.team-social li a > img:hover {
+    opacity: 0.5;
+  -webkit-transition: all .8s linear;
+     -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+     -o-transition: all .8s linear;
+      transition: all .8s linear;
+}
+.elements-counter-wrap.signature-adler .subject{
+  padding: 6px 3px ;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.elements-counter.signature-adler{ 
+  border-right: none;
+}
+
+/*SERVICES*/
+.services.signature-adler .service-block.signature-adler{
+}
+.services.signature-adler .service-block.signature-adler span{
+  font-size: 36px;
+}
+.services.signature-adler .service-block.signature-adler h3{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.call-to-action.signature-adler{
+  padding: 80px;
+  border: solid 5px;
+}
+.call-to-action.signature-adler h3{
+  font-size: 24px;
+  line-height: 48px;
+}
+
+
+/*JOURNAL*/
+.journal.signature-adler .news-block.signature-adler span{
+  font-size: 36px;
+}
+.journal.signature-adler .news-block.signature-adler h3{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.journal.signature-adler .news-block.signature-adler h2{
+  font-size: 24px;
+  line-height:31px;
+  font-weight: normal;
+}
+.journal.signature-adler .news-head{
+  padding: 80px;
+}
+
+/*SINGLE PROJECT*/
+.project-title.signature-adler h1{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project-title.signature-adler h1 > span{
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+.project-title.signature-adler h1 > span:before{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  content: '/';
+  padding-right: 10px;
+  margin-left: 10px;
+}
+.project-spec.signature-adler{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.project-spec.signature-adler li{
+  padding: 10px 0;
+  border-top: solid 1px #eee;
+  font-size: 12px;
+  line-height: 24px;
+}
+.project-spec.signature-adler li:last-child{
+  border-bottom: solid 1px #eee;
+}
+
+.project-nav-icon-wrap{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+.project-nav-icon-wrap li{
+  display: inline-block;
+  margin: 1px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.project-nav-icon-wrap li:hover{
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.project-nav-icon-wrap li a{
+}
+.project-nav-icon-wrap li a img{
+  width: 24px;
+}
+.parallax-showcase-overlay{
+  opacity: 0;
+  background-color: rgba(0,0,0,0.8);
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+.parallax-showcase:hover .parallax-showcase-overlay{
+  opacity: 1;
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+     -o-transition: all .4s linear;
+      transition: all .4s linear;
+}
+
+/*WORKS*/
+
+.works-filter-panel.signature-adler{
+display: none;
+  width: 300px;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 80px;
+}
+.works-filter-wrap{
+}
+.filter-notification.signature-adler{
+    margin-left: 10px;
+}
+.filter-notification.signature-adler{
+    font-size: 14px;
+}
+.works-filter.signature-adler{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.works-filter.signature-adler li{
+  display: block;
+  margin-bottom: 5px;
+}
+.works-filter.signature-adler li a{
+  font-size: 14px;
+  line-height: 21px;
+}
+.works-container.signature-adler{
+    padding: 0;
+  margin: 70px auto 0 auto;
+  overflow: hidden;
+}
+.works-filter.signature-adler li:last-child:after{
+    display: none;
+}
+
+ .works-item.signature-adler{
+  overflow: hidden;
+ }
+ .works-item.signature-adler a{
+            opacity: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 100;
+            text-align: center;
+            text-decoration: none !important;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .works-item.signature-adler a:hover{
+            text-decoration: none !important;
+            opacity:1;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .info a:hover{
+            cursor: url("../images/plus.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .zoom a:hover{
+            cursor: url("../images/zoom.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+        }
+        .works-item-inner{
+            text-align: left;
+            padding: 0 100px;
+        }
+        .works-thumbnails-view{
+          margin-top: 40px;
+        }
+        .works-thumbnails-view .works-item-inner{
+            text-align: left;
+            padding: 40px;
+        }
+        .works-thumbnails-view .works-item-inner p > span {
+            font-size: 14px;
+            letter-spacing: normal;
+            line-height: 21px;
+            margin-top: 0;
+            border-bottom: solid 5px;
+            padding-bottom: 5px;
+            text-transform: none;
+        }
+        .works-item-inner h3 > span{ 
+            font-size: 12px;
+            letter-spacing: normal;
+            line-height: 19px;
+            text-transform: none;
+            margin-bottom: 5px;
+            border-bottom: solid 2px;
+            font-weight: 200;
+        }
+        .works-item-inner p > span{  
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: 8px;
+            margin-top: 0px;
+            text-transform: uppercase;
+        }
+        .works-item.signature-adler a:hover 
+        .works-item-inner h3{ 
+        }
+        .works-item.signature-adler a:hover 
+        .works-item-inner p{  
+        }
+
+.works-item-fade{
+  opacity: 0.1;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.works-item-fade a{
+  display: none !important;
+}
+.works-masonry-container{
+    padding: 0;
+  margin:0px !important;
+}
+.works-masonry-container .works-item-one-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 33.3% !important;
+}
+.works-masonry-container .works-item-two-third {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 66.6% !important;
+}
+.works-masonry-container .works-item-one-half {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50% !important;
+}
+.works-masonry-container .works-item-one-fourth {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 25% !important;
+}
+.works-masonry-container .works-item-full-width {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.works-masonry-container .works-item-one-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 31.3% !important;
+}
+.works-masonry-container .works-item-one-half-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 48% !important;
+}
+.works-masonry-container .works-item-two-third-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 64.6% !important;
+}
+.works-masonry-container .works-item-one-fourth-spaced{
+  margin: 1% !important;
+  padding: 0 !important;
+  width: 23% !important;
+}
+
+
+/* 6. Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Portfolio Isotope Transitions */ 
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/*CONTACT*/
+
+/*contact form*/
+
+.email-wrap {
+    padding-top: 20px;
+}
+
+.contact-mail {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.contact-form-wrap {
+}
+
+.contact-item {
+}
+
+input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 300 !important;
+    margin-bottom: 30px !important;
+    padding: 10px 0 !important;
+    width: 100%;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+input:focus, textarea:focus {
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+textarea {
+    background: url('../images/textarea.png') repeat !important;
+    border: none !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 300 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0 !important;
+    resize: none;
+    width: 100%;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+input, textarea {
+  border-color: #232323 !important;
+  color: #999 !important;
+}
+input.send_message {
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    width: 120px;
+}
+
+input.send_message:hover {
+}
+
+fieldset {
+    border: 0 none;
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+fieldset h1 {
+    font-size: 24px;
+}
+
+.contact-label-box {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.contact-label-box > span {
+    display: block;
+    margin-right: 10px;
+}
+
+.contact-label-box > span > img {
+    height: 60px;
+    width: 60px;
+}
+
+.contact-label-box a:hover {
+    text-decoration: none;
+}
+
+.contact .alert {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    text-shadow: none;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn-wrap {
+    margin-top: 30px;
+}
+
+.space-left {
+    margin-left: 1%;
+}
+
+.alert {
+    margin-top: 0px;
+    border-radius: 0px;
+    padding: 5px;
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    transition: all .8s linear;
+}
+
+.alert > p {
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.contact-address {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 21px;
+}
+
+.email-wrap {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+/*Buttons*/
+.btn-signature {
+  border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature-big {
+  border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-signature-white {
+  border: none;
+    background: #fff;
+    color: #fff;
+}
+
+.btn-signature-white:hover {
+  border: none;
+    color: #fff;
+}
+
+.btn-signature-dark {
+  border: none;
+    background: #000;
+    color: #fff;
+}
+
+.btn-signature-dark:hover {
+  border: none;
+    color: #fff;
+}
+
+.btn-signature-color {
+  border: none;
+    background: transparent;
+}
+
+.btn-signature-color:hover {
+  border: none;
+}
+
+/*Additional Helper Calsses*/
+
+.add-top {
+    margin-top: 160px;
+}
+
+.add-top-half {
+    margin-top: 80px;
+}
+
+.add-top-quarter {
+    margin-top: 40px;
+}
+
+.add-bottom {
+    margin-bottom: 160px;
+}
+
+.add-bottom-half {
+    margin-bottom: 80px;
+}
+
+.add-bottom-quarter {
+    margin-bottom: 40px;
+}
+
+.pad {
+    padding: 60px;
+}
+
+.pad-top {
+    padding-top: 160px;
+}
+
+.pad-top-half {
+    padding-top: 80px;
+}
+
+.pad-top-quarter {
+    padding-top: 40px;
+}
+
+.pad-bottom {
+    padding-bottom: 160px;
+}
+
+.pad-bottom-half {
+    padding-bottom: 80px;
+}
+
+.pad-bottom-quarter {
+    padding-bottom: 40px;
+}
+
+.pad-left-quarter {
+    padding-left: 30px;
+}
+.remove-top {
+    margin-top: 0 !important;
+}
+
+.ease {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ease:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.no-pad {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+}
+
+.valign {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.parallax{    
+    /*css for stellar BG parallax*/
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    background-size: cover;
+}
+/*this class will be activated on mobile devices in order to switch off the parallax effect*/
+.parallax-off, .no-parallax {
+  background-attachment:scroll !important;
+  background-size:cover !important;
+  background-position: center center !important;
+  width:100%;
+}
+.no-scroll-xy{
+  overflow: hidden !important;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+.poster-img{
+  background:url(../images/poster.jpg) center center no-repeat !important;
+  background-size: cover !important;
+}
+
+
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*LESS Compiled to CSS for preview purposes only 
+(Please read PDF guide to manage colors via LESS with just a single line of code editing)*/
+/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.color {
+  color: #fb472e;
+}
+.white {
+  color: #ffffff;
+}
+.silver {
+  color: #f0f4f4;
+}
+.grey {
+  color: #999999;
+}
+.dark {
+  color: #292929;
+}
+.black {
+  color: #121212;
+}
+.color-bg {
+  background-color: #fb472e;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.silver-bg {
+  background-color: #f0f4f4;
+}
+.grey-bg {
+  background-color: #999999;
+}
+.dark-bg {
+  background-color: #292929;
+}
+.black-bg {
+  background-color: #121212;
+}
+a {
+  color: #121212;
+}
+a:hover {
+  color: #fb472e;
+}
+::selection {
+  background: #fb472e;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #fb472e;
+  color: #ffffff;
+}
+body,
+p {
+  color: #292929;
+}
+.btn-signature-color {
+  background-color: #fb472e !important;
+  color: #ffffff !important;
+}
+.btn-signature-color:hover {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+.btn-signature-dark:hover,
+.btn-signature-white:hover {
+  background-color: #fb472e !important;
+}
+nav.mastnav.signature-adler {
+  border-color: #292929;
+}
+.works-filter.signature-adler li a {
+  color: #ffffff;
+}
+.works-filter.signature-adler li a:hover {
+  color: #fb472e;
+}
+.filter-notification,
+.filter-notification:visited {
+  color: #121212 !important;
+}
+.works-thumbnails-view .works-item-inner p > span {
+  border-color: #ffffff;
+}
+.team-overlay {
+  border-color: #ffffff;
+}
+.call-to-action.signature-adler {
+  border-color: #292929;
+}
+.sub-menu a {
+  color: #999999;
+}
+.main-link:hover,
+.sub-menu a:hover {
+  color: #fb472e !important;
+}
+.project-nav-icon-wrap li:hover {
+  background-color: #fb472e;
+}
+.filter-active span {
+  color: #fb472e;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.font2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.font3 {
+  font-family: 'designova_ss_regular', sans-serif;
+}
+.font3xblack {
+  font-family: 'designova_ss_xblack', sans-serif;
+}
+.font3black {
+  font-family: 'designova_ss_black', sans-serif;
+}
+.font3bold {
+  font-family: 'designova_ss_bold', sans-serif;
+}
+.font3light {
+  font-family: 'designova_ss_light', sans-serif;
+}
+.font3xlight {
+  font-family: 'designova_ss_xlight', sans-serif;
+}
+.font3thin {
+  font-family: 'designova_ss_thin', sans-serif;
+}
+body,
+p {
+  font-family: 'designova_ss_regular', sans-serif;
+}
+
+
