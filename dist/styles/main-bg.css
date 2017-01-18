@@ -1,0 +1,30 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.about-bg {
+    background-image: url('../images/bg/02.jpg');
+}
+.journal-bg {
+    background-image: url('../images/bg/01.jpg');
+}
+.contact-bg {
+    background-image: url('../images/bg/03.jpg');
+}
+.project-01-carousel-item-01{
+	background-image: url('../images/project/project01/01.jpg');
+}
+.project-01-carousel-item-02{
+	background-image: url('../images/project/project01/02.jpg');
+}
+.project-01-carousel-item-03{
+	background-image: url('../images/project/project01/03.jpg');
+}
+.parallax-showcase-01{
+	background-image: url('../images/project/project01/02.jpg');
+}
+.parallax-showcase-02{
+	background-image: url('../images/project/project01/03.jpg');
+}
+.parallax-showcase-03{
+	background-image: url('../images/project/project01/01.jpg');
+}
