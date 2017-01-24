@@ -13,15 +13,15 @@
 /*global window: false */
 
 (function () {
-    "use strict";
+    'use strict';
 
     $(function ($) {
 
-        $(".dropdown").hover(function () {
-            $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+        $('.dropdown').hover(function () {
+            $('.dropdown-menu', this).stop(true, true).slideDown('fast');
             $(this).toggleClass('open');
         }, function () {
-            $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+            $('.dropdown-menu', this).stop(true, true).slideUp('fast');
             $(this).toggleClass('open');
         });
 
@@ -52,7 +52,7 @@
             $('.progress-bar').each(function () {
                 var progressValue = $(this).attr('data-skills-value');
                 $(this).animate({
-                    width: progressValue + "%"
+                    width: progressValue + '%'
                 }, 2500);
             });
         }, { offset: '35%' });
