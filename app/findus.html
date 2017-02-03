@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
 
 <head>
 
@@ -20,6 +20,8 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600%7CMontserrat:400,700%7COpen+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
     <!-- ICON FONTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="styles/ionicons.min.css">
@@ -32,6 +34,7 @@
     <link rel="stylesheet" href="styles/sinister.css">
     <link rel="stylesheet" href="styles/slimmenu.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-bg.css">
     <link rel="stylesheet" href="styles/main-responsive.css">
 
     <!-- LESS
@@ -53,7 +56,8 @@
         <div id="status"></div>
     </div>
     <!-- end : preloader -->
-    <!-- mobile only navigation : starts -->
+    
+<!-- mobile only navigation : starts -->
   <nav class="mobile-nav signature-adler">
             <ul class="slimmenu">
               <li>
@@ -118,69 +122,38 @@
       </div>
     </header>
     <!-- end : masthead -->
+
+
+    <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section class="mastwrap signature-adler">
 
-      <section class="first-fold signature-adler fullheight contact-bg parallax" data-stellar-background-ratio="0.5">
-        <p style="float:right;margin:10px">
-          <span style="color:#008cd6">简体中文</span><span> / </span>
-          <span>繁體中文</span><span> / </span>
-          <span>English</span><span> / </span>
-          <span>日本語</span>
-        </p>
+      <section class="first-fold signature-adler fullheight about-bg parallax" data-stellar-background-ratio="0.5">
               <section class="main-heading fixed-bottom">
-                  <h1 class="white font3bold">Say Hello</h1>
-                  <h6 class="white font3light">Welcome to our creative design studio</h6>
+                  <h1 class="white font3bold">关于</h1>
+                  <h6 class="white font3light">欢迎来到未开封音乐</h6>
                   <div class="liner color-bg"></div>
               </section>
       </section>
       
       <div class="inner-wrap">
         
-      <section class="hero-text signature-adler">
+      
+      <section class="call-to-action signature-adler add-top ">
         <div class="row">
-            <article class="col-md-6"> 
-                <h5 class="black font3bold">Basic Interactive. 23D / 423. Berlin. DE</h5>
-                  <div class="liner-small color-bg"></div>
-                 <a href="#"><h6 class="grey font3bold">hello@basic.tld</h6></a>
-
-                    <ul class="team-social add-top-quarter">
-                      
-                    </ul>
-            </article>
-            <article class="col-md-6"> 
-                
-              <div class="contact-item">
-                    <div class="alert alert-error error color-bg" id="fname">
-                      <p class="black">Name must not be empty</p>
-                    </div>
-                    <div class="alert alert-error  error color-bg" id="fmail">
-                      <p class="black">Please provide a valid email</p>
-                    </div>
-                     <div class="alert alert-error  error color-bg" id="fmsg">
-                       <p class="black">Message should not be empty</p>
-                     </div>
-                      <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post"> 
-                        <article>
-                          <input type="text" placeholder="Your Name" id="name" name="name" size="100" class="border-form white font4light">
-                        </article>
-                        <article>
-                           <input type="text" placeholder="Valid email ID" name="email" id="email" size="30" class="border-form white font4light">
-                         </article>
-                         <article>
-                          <textarea placeholder="Your Message" name="message" cols="40" rows="5" id="msg" class="border-form white font4light"></textarea>
-                          <div class="btn-wrap  text-left">
-                            <button class="btn btn-signature btn-signature-adler btn-signature-color" id="submit" name="submit" type="submit">Send Message</button>
-                          </div>
-                        </article>
-                     </form>
-                  </div>
-
-
-
-
+            <article class="col-md-12"> 
+                <h3 class="black font3bold">Mikai Music如何联系？</h3>
+                <div class="liner-small color-bg"></div>
+                 <h6 class="grey font3bold">
+                    电子邮箱：info@mikaimusic.com
+                </h6>
+                <h6 class="grey font3bold">
+                    微博私信：@mikaimusic
+                </h6>
             </article>
         </div>
       </section>
+
 
 
 
@@ -188,23 +161,12 @@
     <!-- end : inner-wrap -->
 
 
-
-    
-<div class="container-fluid">
-      <div class="row">
-          <article class="col-md-12 map-wrap no-pad">
-              <div id="map" class="signature-adler fullheight"></div>
-          </article>
-      </div>
-</div>
-
-
       <!-- FOOTER
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <footer class="mastfoot signature-adler white-bg">
       <div class="container-fluid">
         
-         <div class="row">
+        <div class="row">
               <article class="col-md-1 text-left">
                     <img data-no-retina alt="" title="" class="img-responsive" src="images/logo.png"/>
               </article>
@@ -251,8 +213,8 @@
     <script src="scripts/common.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/elements.js"></script>
 
-  
 </body>
 
 </html>
