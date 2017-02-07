@@ -26,8 +26,20 @@ a:focus {
 .journal-bg {
     background-image: url('../images/works/01.jpg');
 }
+.download-bg {
+    background-image: url('../images/works/09.jpg');
+}
 .contact-bg {
     background-image: url('../images/works/12.jpg');
+}
+#wechat-qr{
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  z-index: 10;
+  display: block;
+  left: 764px;
+  top: 605px;
 }
 
 .menu-left{
