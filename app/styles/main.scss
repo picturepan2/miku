@@ -29,6 +29,9 @@ a:focus {
 .journal-bg {
     background-image: url('../images/works/01.jpg');
 }
+.download-bg {
+    background-image: url('../images/works/09.jpg');
+}
 .contact-bg {
     background-image: url('../images/works/12.jpg');
 }
@@ -189,10 +192,19 @@ nav.mastnav.signature-adler ul{
     margin: 0;
     padding-bottom: 20px;
     border-bottom: solid 5px;
-    margin-right: 80px;
+    margin-right: 40px;
 }
 nav.mastnav.signature-adler ul li{
     margin-top: 10px;
+}
+#wechat-qr{
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  z-index: 10;
+  display: block;
+  left: 764px;
+  top: 605px;
 }
 .sub-menu{
   display: none;

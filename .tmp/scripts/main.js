@@ -20,6 +20,15 @@
         $('.halfwidth').css('width', vW / 2);
         $('.halfheight').css('height', vH / 2);
 
+        $('#wechat-ico').on('mouseenter', function (e) {
+            // var x = e.target.x,y=e.target.y
+            $('#wechat-qr').css('left', e.clientX - 90);
+            $('#wechat-qr').css('top', e.clientY - 240);
+            $('#wechat-qr').show();
+        }).on('mouseleave', function () {
+            $('#wechat-qr').hide();
+        });
+
         $('.news-head').setAllToMaxHeight();
         //Mobile Only Navigation (multi level)
         $('ul.slimmenu').slimmenu({
