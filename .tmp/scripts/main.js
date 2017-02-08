@@ -21,12 +21,11 @@
         $('.halfheight').css('height', vH / 2);
 
         $('#wechat-ico').on('mouseenter', function (e) {
-            // var x = e.target.x,y=e.target.y
             $('#wechat-qr').css('left', e.clientX - 90);
             $('#wechat-qr').css('top', e.clientY - 240);
-            $('#wechat-qr').show();
+            $('#wechat-qr').css('display', 'block');
         }).on('mouseleave', function () {
-            $('#wechat-qr').hide();
+            $('#wechat-qr').css('display', 'none');
         });
 
         $('.news-head').setAllToMaxHeight();
