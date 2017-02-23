@@ -197,6 +197,18 @@ nav.mastnav.signature-adler ul{
 nav.mastnav.signature-adler ul li{
     margin-top: 10px;
 }
+.file-list{
+  margin-top: 20px;
+  position: relative;
+  left: 0;
+  padding: 0;
+}
+.file-list li{
+  list-style: none;
+  margin-top: 6px;
+
+}
+
 #wechat-qr{
   width: 200px;
   height: 200px;
@@ -245,7 +257,7 @@ section.mastwrap.signature-adler {
   height: 100%;
   bottom: 0;
   left: 0;
-  padding: 40px;
+  padding: 20px;
   border-left:solid 15px;
   border-right:solid 15px;
   background-color: rgba(255,255,255,0.9);
@@ -328,7 +340,7 @@ section.mastwrap.signature-adler {
   font-weight: normal;
 }
 .journal.signature-adler .news-head{
-  padding: 80px;
+  padding: 60px;
 }
 
 /*SINGLE PROJECT*/
