@@ -521,12 +521,14 @@ display: none;
             text-align: left;
             padding: 40px;
         }
+        .works-item-inner p{
+          text-align: left;
+        }
         .works-thumbnails-view .works-item-inner p > span {
             font-size: 14px;
             letter-spacing: normal;
             line-height: 21px;
             margin-top: 0;
-            border-bottom: solid 5px;
             padding-bottom: 5px;
             text-transform: none;
         }

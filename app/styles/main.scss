@@ -520,6 +520,13 @@ display: none;
         .works-thumbnails-view{
           margin-top: 40px;
         }
+        .works-item-inner p{
+          text-align: left;
+        }
+        .works-item-inner .artist-name{
+          text-align: left;
+          color: white;
+        }
         .works-thumbnails-view .works-item-inner{
             text-align: left;
             padding: 40px;
@@ -529,7 +536,6 @@ display: none;
             letter-spacing: normal;
             line-height: 21px;
             margin-top: 0;
-            border-bottom: solid 5px;
             padding-bottom: 5px;
             text-transform: none;
         }
