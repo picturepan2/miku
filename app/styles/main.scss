@@ -473,29 +473,30 @@ display: none;
   overflow: hidden;
  }
  .works-item.signature-adler a{
-            opacity: 0;
-            display: block;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            z-index: 100;
-            text-align: center;
-            text-decoration: none !important;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
+   color: #008cd5;
+            // opacity: 0;
+            // display: block;
+            // width: 100%;
+            // height: 100%;
+            // position: absolute;
+            // top: 0;
+            // z-index: 100;
+            // text-align: center;
+            // text-decoration: none !important;
+            // -webkit-transition: all .4s ease-in-out;
+            //    -moz-transition: all .4s ease-in-out;
+            //     -ms-transition: all .4s ease-in-out;
+            //      -o-transition: all .4s ease-in-out;
+            //         transition: all .4s ease-in-out;
         }
         .works-item.signature-adler a:hover{
-            text-decoration: none !important;
-            opacity:1;
-            -webkit-transition: all .4s ease-in-out;
-               -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
-                 -o-transition: all .4s ease-in-out;
-                    transition: all .4s ease-in-out;
+            // text-decoration: none !important;
+            // opacity:1;
+            // -webkit-transition: all .4s ease-in-out;
+            //    -moz-transition: all .4s ease-in-out;
+            //     -ms-transition: all .4s ease-in-out;
+            //      -o-transition: all .4s ease-in-out;
+            //         transition: all .4s ease-in-out;
         }
         .info a:hover{
             cursor: url("../images/plus.png") 40 40, crosshair;
@@ -555,12 +556,12 @@ display: none;
             margin-top: 0px;
             text-transform: uppercase;
         }
-        .works-item.signature-adler a:hover 
-        .works-item-inner h3{ 
-        }
-        .works-item.signature-adler a:hover 
-        .works-item-inner p{  
-        }
+        // .works-item.signature-adler a:hover 
+        // .works-item-inner h3{ 
+        // }
+        // .works-item.signature-adler a:hover 
+        // .works-item-inner p{  
+        // }
 
 .works-item-fade{
   opacity: 0.1;
