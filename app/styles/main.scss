@@ -429,7 +429,16 @@ section.mastwrap.signature-adler {
 }
 
 /*WORKS*/
-
+.profile-avatar{
+  width: 320px;
+  height: 320px;
+  background-size: cover;
+}
+.profile-text{
+  a {
+    color: #008cd6;
+  }
+}
 .works-filter-panel.signature-adler{
 display: none;
   width: 300px;
