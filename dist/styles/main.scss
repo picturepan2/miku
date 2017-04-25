@@ -131,14 +131,33 @@ header.masthead.signature-adler {
     padding: 80px;
 }
 
+.artist-digest {
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+  bottom: 0px;
+  padding: 4px;
+}
+.artist-digest p{
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.artist-digest .artist-type{
+  font-size: 14px;
+  color: #ccc;
+  padding-left: 10px;
+}
+
 /* 3. Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 footer.mastfoot.signature-adler{
   padding: 60px 40px;
-  position: absolute;
+  position: relative;
   bottom: 0px;
-  width: 80%;
+  width: 84%;
 }
 .credits{
 }
