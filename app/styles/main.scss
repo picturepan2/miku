@@ -107,17 +107,23 @@ header.masthead.signature-adler {
     height: 100%;
     padding: 80px;
 }
-
+.news-digest,
 .artist-digest {
   position: absolute;
   width: 100%;
   background: rgba(0,0,0,0.4);
   bottom: 0px;
-  padding: 4px;
+  padding: 10px;
 }
-.artist-digest p{
-  color: white;
+.artist-digest p {
+  color: #fff;
   font-size: 18px;
+  padding-left: 10px;
+}
+
+.news-digest p {
+  color: #fff;
+  font-size: 16px;
   padding-left: 10px;
 }
 
@@ -134,7 +140,7 @@ footer.mastfoot.signature-adler{
   padding: 60px 40px;
   position: relative;
   bottom: 0px;
-  width: 84%;
+  width: 100%;
 }
 .credits{
 }
@@ -236,7 +242,7 @@ section.mastwrap.signature-adler {
     margin-left: 300px;
 }
 .inner-wrap{
-    padding: 100px;
+    padding: 100px 100px 50px 100px;
 }
 
 /*INTRO 01*/
@@ -471,6 +477,7 @@ display: none;
 .works-container.signature-adler{
     padding: 0;
     margin: 70px auto 0 auto;
+    min-height: 50vh;
     overflow: hidden;
 }
 .works-filter.signature-adler li:last-child:after{
@@ -1162,30 +1169,4 @@ nav.mastnav.signature-adler {
 .font2 {
   font-family: 'Montserrat', sans-serif;
 }
-.font3 {
-  font-family: 'designova_ss_regular', sans-serif;
-}
-.font3xblack {
-  font-family: 'designova_ss_xblack', sans-serif;
-}
-.font3black {
-  font-family: 'designova_ss_black', sans-serif;
-}
-.font3bold {
-  font-family: 'designova_ss_bold', sans-serif;
-}
-.font3light {
-  font-family: 'designova_ss_light', sans-serif;
-}
-.font3xlight {
-  font-family: 'designova_ss_xlight', sans-serif;
-}
-.font3thin {
-  font-family: 'designova_ss_thin', sans-serif;
-}
-body,
-p {
-  font-family: 'designova_ss_regular', sans-serif;
-}
-
 
