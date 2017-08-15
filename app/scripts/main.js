@@ -37,21 +37,8 @@
                 });
 
                 $('.slimmenu li a:not(.sub-collapser)').on('click',function(){
-                            $('ul.slimmenu').removeClass('expanded').slideUp();
+                    $('ul.slimmenu').removeClass('expanded').slideUp();
                 });
-
-
-        //PRELOADER
-        $('body, html').addClass('preloader-running');
-        $('#mastwrap').css('visibility', 'hidden');
-        $(window).load(function() {
-            $('#status').fadeOut();
-            $('#preloader').delay(1000).fadeOut(1000);
-            $('body, html').removeClass('preloader-running');
-            $('body, html').addClass('preloader-done');
-            $('#mastwrap').delay(1000).css('visibility',
-                'visible');
-        });
 
 //Sub Menu Trigger
         $('.main-menu li a.sub-menu-trigger').on('mouseenter', function(){

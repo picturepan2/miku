@@ -36,16 +36,16 @@ a:focus {
     background-image: url('../images/MikaiMusic.png');
 }
 
-.menu-left{
+.menu-left {
   font-size: 18px !important;
   font-weight: bold !important;
 }
 
-.main-heading h1{
+.main-heading h1 {
     font-size: 32px;
     line-height: 32px;
 }
-.main-heading h6{
+.main-heading h6 {
     font-size: 14px;
     line-height: 21px;
     margin-top: 10px;
@@ -82,29 +82,6 @@ a:focus {
 .first-fold.signature-adler .main-heading.fixed-bottom{
   position: absolute;
   bottom: 60px;
-}
-
-/*Preloader*/
-html.preloader-running, body.preloader-running {
-    overflow: hidden;
-}
-
-html.preloader-running .sticky-sidebar {
-    display: block;
-}
-
-div#preloader.signature-adler {
-    background: none repeat scroll 0 0 white;
-    height: 100%;
-    left: 300px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99999;
-}
-
-div#preloader.signature-adler.fluidview {
-    left: 0px;
 }
 
 #status {
@@ -493,15 +470,16 @@ display: none;
 }
 .works-container.signature-adler{
     padding: 0;
-  margin: 70px auto 0 auto;
-  overflow: hidden;
+    margin: 70px auto 0 auto;
+    overflow: hidden;
 }
 .works-filter.signature-adler li:last-child:after{
     display: none;
 }
 
  .works-item.signature-adler{
-  overflow: hidden;
+    float: left;
+    overflow: hidden;
  }
  .works-item.signature-adler a{
    color: #008cd5;

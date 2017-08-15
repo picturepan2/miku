@@ -100,29 +100,6 @@ a:focus {
   bottom: 60px;
 }
 
-/*Preloader*/
-html.preloader-running, body.preloader-running {
-    overflow: hidden;
-}
-
-html.preloader-running .sticky-sidebar {
-    display: block;
-}
-
-div#preloader.signature-adler {
-    background: none repeat scroll 0 0 white;
-    height: 100%;
-    left: 300px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99999;
-}
-
-div#preloader.signature-adler.fluidview {
-    left: 0px;
-}
-
 #status {
     width: 200px;
     height: 200px;
