@@ -25,15 +25,17 @@ a:focus {
 
 /*Typography*/
 
-
+.about-bg {
+  background-image: url('../images/MikaiMusic.png');
+}
 .journal-bg {
-    background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/MikaiMusic.png');
 }
 .download-bg {
-    background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/MikaiMusic.png');
 }
 .contact-bg {
-    background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/MikaiMusic.png');
 }
 
 .menu-left {
@@ -42,70 +44,79 @@ a:focus {
 }
 
 .main-heading h1 {
-    font-size: 32px;
-    line-height: 32px;
+  font-size: 32px;
+  line-height: 32px;
 }
 .main-heading h6 {
-    font-size: 14px;
-    line-height: 21px;
-    margin-top: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 10px;
 }
-.liner{
+.liner {
   width: 200px;
   height: 5px;
   display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-.liner-small{
+.liner-small {
   width: 100px;
   height: 2px;
   display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.hero-text.signature-adler h3{
-    font-size: 48px;
-    line-height: 64px;
-    text-transform: uppercase;
+.hero-text.signature-adler h3 {
+  font-size: 48px;
+  line-height: 64px;
+  text-transform: uppercase;
 }
-.hero-text.signature-adler h6{
-    font-size: 14px;
-    line-height: 21px;
+.hero-text.signature-adler h6 {
+  font-size: 14px;
+  line-height: 21px;
 }
-.page-top-spacing{
-    margin-top: 400px;
+.hero-text.signature-adler .post-title {
+  font-size: 28px;
+  line-height: 36px;
 }
-.first-fold.signature-adler .main-heading{
+.hero-text.signature-adler .post-body p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+.page-top-spacing {
+  margin-top: 400px;
+}
+.first-fold.signature-adler .main-heading {
   margin-left: 100px;
 }
-.first-fold.signature-adler .main-heading.fixed-bottom{
+.first-fold.signature-adler .main-heading.fixed-bottom {
   position: absolute;
   bottom: 60px;
 }
 
 #status {
-    width: 200px;
-    height: 200px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    background-image: url(../images/loader.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80px 80px;
-    margin: -100px 0 0 -100px;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background-image: url(../images/loader.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px 80px;
+  margin: -100px 0 0 -100px;
 }
 
 /* 2. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header.masthead.signature-adler {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 100%;
-    padding: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  padding: 80px;
 }
 .news-digest,
 .artist-digest {
@@ -127,7 +138,7 @@ header.masthead.signature-adler {
   padding-left: 10px;
 }
 
-.artist-digest .artist-type{
+.artist-digest .artist-type {
   font-size: 14px;
   color: #ccc;
   padding-left: 10px;

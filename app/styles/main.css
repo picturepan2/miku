@@ -3,12 +3,12 @@
 html, body {
     overflow-x: hidden;
 }
-.profile-avatar{
+.profile-avatar {
   width: 320px;
   height: 320px;
   background-size: cover;
 }
-.profile-text a{
+.profile-text a {
   color: #008cd6;
 }
 
@@ -31,6 +31,9 @@ a:focus {
     outline: none;
 }
 
+.about-bg {
+  background-image: url('../images/MikaiMusic.png');
+}
 .journal-bg {
     background-image: url('../images/MikaiMusic.png');
 }
@@ -40,7 +43,8 @@ a:focus {
 .contact-bg {
     background-image: url('../images/MikaiMusic.png');
 }
-#wechat-qr{
+
+#wechat-qr {
   width: 200px;
   height: 200px;
   position: fixed;
@@ -50,52 +54,60 @@ a:focus {
   top: 605px;
 }
 
-.menu-left{
+.menu-left {
   font-size: 18px !important;
   font-weight: bold !important;
 }
 
 /*Typography*/
 
-.main-heading h1{
-    font-size: 32px;
-    line-height: 32px;
+.main-heading h1 {
+  font-size: 32px;
+  line-height: 32px;
 }
-.main-heading h6{
-    font-size: 14px;
-    line-height: 21px;
-    margin-top: 10px;
+.main-heading h6 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 10px;
 }
-.liner{
+.liner {
   width: 200px;
   height: 5px;
   display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-.liner-small{
+.liner-small {
   width: 100px;
   height: 2px;
   display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.hero-text.signature-adler h3{
-    font-size: 48px;
-    line-height: 64px;
-    text-transform: uppercase;
+.hero-text.signature-adler h3 {
+  font-size: 48px;
+  line-height: 64px;
+  text-transform: uppercase;
 }
-.hero-text.signature-adler h6{
-    font-size: 14px;
-    line-height: 21px;
+.hero-text.signature-adler h6 {
+  font-size: 14px;
+  line-height: 21px;
 }
-.page-top-spacing{
-    margin-top: 400px;
+.hero-text.signature-adler .post-title {
+  font-size: 28px;
+  line-height: 36px;
 }
-.first-fold.signature-adler .main-heading{
+.hero-text.signature-adler p {
+  font-size: 16px;
+  color:#666
+}
+.page-top-spacing {
+  margin-top: 400px;
+}
+.first-fold.signature-adler .main-heading {
   margin-left: 100px;
 }
-.first-fold.signature-adler .main-heading.fixed-bottom{
+.first-fold.signature-adler .main-heading.fixed-bottom {
   position: absolute;
   bottom: 60px;
 }
