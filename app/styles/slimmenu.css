@@ -73,7 +73,6 @@ ul.slimmenu {
     list-style-type: none;
     margin: 0;
     padding: 50px;
-    padding-bottom: 100px;
     width: 100%;
     background-color: #fff;
 }
@@ -150,6 +149,9 @@ ul.slimmenu li > ul > li ul {
 
 ul.slimmenu.collapsed li {
     display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 0;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
