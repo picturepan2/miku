@@ -29,7 +29,7 @@ a:focus {
   background-image: url('../images/MikaiMusic.png');
 }
 .journal-bg {
-  background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/bg/bg-contribution.jpg');
 }
 .download-bg {
   background-image: url('../images/MikaiMusic.png');
@@ -1048,7 +1048,9 @@ fieldset h1 {
     width:100%;
     height:100%;
     position: relative;
+    background-position-x: center !important;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /*this class will be activated on mobile devices in order to switch off the parallax effect*/
 .parallax-off, .no-parallax {

@@ -59,7 +59,7 @@ gulp.task('lint:test', () => {
 
 gulp.task('html', ['styles', 'scripts'], () => {
   return gulp.src('app/**/*.html')
-    .pipe($.useref({searchPath: ''}))
+    .pipe($.useref())
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano({safe: true, autoprefixer: false})))
     .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
