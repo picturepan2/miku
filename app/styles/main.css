@@ -4,6 +4,10 @@ html, body {
     overflow-x: hidden;
 }
 
+:lang(zh) {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+
 p {
     font-size: 12px;
     line-height: 25px;
@@ -23,16 +27,22 @@ a:focus {
     outline: none;
 }
 
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 /*Typography*/
 
 .about-bg {
-  background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/bg/bg-about.jpg');
 }
 .journal-bg {
   background-image: url('../images/bg/bg-contribution.jpg');
 }
 .download-bg {
-  background-image: url('../images/MikaiMusic.png');
+  background-image: url('../images/bg/bg-derivative-works.jpg');
 }
 .contact-bg {
   background-image: url('../images/MikaiMusic.png');
@@ -88,7 +98,7 @@ a:focus {
   margin-top: 400px;
 }
 .first-fold.signature-adler .main-heading {
-  margin-left: 100px;
+  margin-left: 60px;
 }
 .first-fold.signature-adler .main-heading.fixed-bottom {
   position: absolute;
@@ -152,8 +162,6 @@ footer.mastfoot.signature-adler{
   position: relative;
   bottom: 0px;
   width: 100%;
-}
-.credits{
 }
 .social-wrap{
   padding: 0;
@@ -318,8 +326,6 @@ section.mastwrap.signature-adler {
 }
 
 /*SERVICES*/
-.services.signature-adler .service-block.signature-adler{
-}
 .services.signature-adler .service-block.signature-adler span{
   font-size: 36px;
 }
@@ -421,8 +427,6 @@ section.mastwrap.signature-adler {
      -o-transition: all .4s linear;
       transition: all .4s linear;
 }
-.project-nav-icon-wrap li a{
-}
 .project-nav-icon-wrap li a img{
   width: 24px;
 }
@@ -450,17 +454,11 @@ section.mastwrap.signature-adler {
   padding: 60px 60px;
   margin: 0;
 }
-.profile-avatar{
-  height: 360px;
-  background-size: cover;
-  background-position: center center;
-  padding: 30px;
-}
 .profile-text{
   padding: 20px 50px;
-  a {
-    color: #008cd6;
-  }
+}
+.profile-text a {
+  color: #008cd6;
 }
 .works-filter-panel.signature-adler{
 display: none;
@@ -470,8 +468,6 @@ display: none;
   top: 0;
   left: 0;
   padding: 80px;
-}
-.works-filter-wrap{
 }
 .filter-notification.signature-adler{
     margin-left: 10px;
@@ -506,32 +502,6 @@ display: none;
   min-height: 120px;
   overflow: hidden;
   position: relative;
-}
-.works-item.signature-adler a{
-  color: #008cd5;
-          // opacity: 0;
-          // display: block;
-          // width: 100%;
-          // height: 100%;
-          // position: absolute;
-          // top: 0;
-          // z-index: 100;
-          // text-align: center;
-          // text-decoration: none !important;
-          // -webkit-transition: all .4s ease-in-out;
-          //    -moz-transition: all .4s ease-in-out;
-          //     -ms-transition: all .4s ease-in-out;
-          //      -o-transition: all .4s ease-in-out;
-          //         transition: all .4s ease-in-out;
-}
-.works-item.signature-adler a:hover{
-    // text-decoration: none !important;
-    // opacity:1;
-    // -webkit-transition: all .4s ease-in-out;
-    //    -moz-transition: all .4s ease-in-out;
-    //     -ms-transition: all .4s ease-in-out;
-    //      -o-transition: all .4s ease-in-out;
-    //         transition: all .4s ease-in-out;
 }
 .info a:hover{
     cursor: url("../images/plus.png") 40 40, crosshair;
@@ -705,11 +675,6 @@ display: none;
     font-weight: 300;
 }
 
-.contact-form-wrap {
-}
-
-.contact-item {
-}
 
 input {
     background: transparent !important;
@@ -769,9 +734,6 @@ input.send_message {
     font-weight: 400;
     margin: 0;
     width: 120px;
-}
-
-input.send_message:hover {
 }
 
 fieldset {

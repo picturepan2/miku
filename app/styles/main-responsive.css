@@ -180,7 +180,7 @@ there.
     }
     .first-fold.signature-adler .main-heading{
         margin-left: 0;
-        padding: 0 30px;
+        padding: 0 60px;
     }
     .elements-counter.signature-adler{ 
         width: 100%;
@@ -251,7 +251,7 @@ there.
     }
 
     .profile-text {
-        padding: 50px;
+        padding: 50px 0;
     }
 
     .text-left, .text-right, .mastfoot, .credits, .services-item, .hero-text.signature-adler {
