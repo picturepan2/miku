@@ -254,7 +254,7 @@ there.
         padding: 50px 0;
     }
 
-    .text-left, .text-right, .mastfoot, .credits, .services-item, .hero-text.signature-adler {
+    .text-left, .text-right, .mastfoot, .credits, .services-item {
         text-align: center;
     }
 
