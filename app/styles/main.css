@@ -28,9 +28,49 @@ a:focus {
 }
 
 .img-responsive {
+  margin: auto;
+}
+
+.video-responsive {
   display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.video-responsive::before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+  border: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.video-responsive video {
   height: auto;
   max-width: 100%;
+  width: 100%;
+}
+
+.video-responsive-4-3::before {
+  padding-bottom: 75%;
+}
+
+.video-responsive-1-1::before {
+  padding-bottom: 100%;
 }
 
 /*Typography*/
@@ -91,7 +131,7 @@ a:focus {
 }
 .hero-text.signature-adler .post-body p {
   font-size: 16px;
-  color: #666;
+  
   margin-bottom: 24px;
 }
 .hero-text.signature-adler .post-body a {
@@ -173,16 +213,19 @@ footer.mastfoot.signature-adler{
 .social-wrap{
   padding: 0;
 }
-.foot-social {
+.footer-logo {
+  padding: 0;
+}
+.footer-social {
     list-style: none outside none;
     padding: 0;
 }
-.foot-social li {
+.footer-social li {
     display: inline-block;
     margin-left: 2px;
     margin-bottom: 0;
 }
-.foot-social li a > img {
+.footer-social li a > img {
   width: 32px;
     opacity: 1;
   -webkit-transition: all .8s linear;
@@ -191,7 +234,7 @@ footer.mastfoot.signature-adler{
      -o-transition: all .8s linear;
       transition: all .8s linear;
 }
-.foot-social li a > img:hover {
+.footer-social li a > img:hover {
     opacity: 0.5;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
@@ -1096,8 +1139,7 @@ a:hover {
   background: #fb472e;
   color: #ffffff;
 }
-body,
-p {
+body {
   color: #292929;
 }
 .btn-signature-color {
