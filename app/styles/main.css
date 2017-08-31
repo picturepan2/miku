@@ -1,7 +1,7 @@
 /* 1. Common
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html, body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 :lang(zh) {
@@ -9,26 +9,27 @@ html, body {
 }
 
 p {
-    font-size: 12px;
-    line-height: 25px;
-    margin-bottom: 0;
+  font-size: 12px;
+  line-height: 25px;
+  margin-bottom: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:focus {
-    outline: none;
+  outline: none;
 }
 
-.img-responsive {
-  margin: auto;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .video-responsive {
@@ -126,12 +127,12 @@ a:focus {
   line-height: 21px;
 }
 .hero-text.signature-adler .post-title {
+  color: #333;
   font-size: 28px;
   line-height: 36px;
 }
 .hero-text.signature-adler .post-body p {
   font-size: 16px;
-  
   margin-bottom: 24px;
 }
 .hero-text.signature-adler .post-body a {
@@ -265,7 +266,7 @@ nav.mastnav.signature-adler ul{
     padding: 0;
     margin: 0;
     padding-bottom: 20px;
-    border-bottom: solid 5px;
+    border-bottom: solid 5px #121212;
     margin-right: 0px;
 }
 nav.mastnav.signature-adler ul li{
@@ -1084,11 +1085,6 @@ fieldset h1 {
   background-size: cover !important;
 }
 
-
-/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*LESS Compiled to CSS for preview purposes only 
-(Please read PDF guide to manage colors via LESS with just a single line of code editing)*/
-/*–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 .color {
   color: #fb472e;
 }
@@ -1130,6 +1126,7 @@ a {
 }
 a:hover {
   color: #fb472e;
+  text-decoration: none;
 }
 ::selection {
   background: #fb472e;
@@ -1140,7 +1137,7 @@ a:hover {
   color: #ffffff;
 }
 body {
-  color: #292929;
+  color: #555;
 }
 .btn-signature-color {
   background-color: #fb472e !important;
