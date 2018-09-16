@@ -174,7 +174,7 @@ header.masthead.signature-adler {
   left: 0;
   width: 300px;
   height: 100%;
-  padding: 70px;
+  padding: 70px 50px 30px 50px;
 }
 .news-digest,
 .artist-digest {
@@ -253,7 +253,7 @@ footer.mastfoot.signature-adler{
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav.mastnav.signature-adler {
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     width: 170px;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
